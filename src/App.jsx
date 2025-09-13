@@ -1,19 +1,18 @@
 import './App.css'
-import Header from './components/Header'
-import Nav from './components/Nav'
-import Body from './components/Body'
-import Footer from './components/Footer'
-
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Home from './pages/Home'
+import About from './pages/About'
+import ErrorPage from './pages/ErrorPage'
 
 function App() {
     return (
-        <div>
-            <Header />
-            <Nav />
-            <Body />
-            <Footer />
-        </div>
-        
+        <Router>
+            <Routes>
+                <Route path='/' element={<Home />}/>
+                <Route path='/about' element={<About />}/>
+                <Route path='*' element={<ErrorPage />}/>
+            </Routes>
+        </Router>
     )
 }
 export default App
