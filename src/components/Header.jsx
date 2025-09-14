@@ -5,7 +5,7 @@ const Header = () => {
         <div className="flex flex-row justify-between border-y border-stone-700 w-full h-[60px]">
             <div className="flex flex-row items-center">
                 <img src="../public/logo.png" alt="logo" className="px-[20px] h-[52px] object-contain"/>
-                <h1 className="text-4xl text-white">Rentory</h1>
+                <h1 className="text-4xl text-white font-bold">Rentory</h1>
             </div>
             <div className="">
                 <ul className="flex flex-row items-center h-full">

@@ -27,13 +27,13 @@ const Footer = () => {
                     <span className="flex items-center space-x-2 px-5 text-white">Adress: <span className="bg-stone-600 h-4 w-25 mx-2"></span></span>
                 </div>
                 <div className="flex flex-col m-3 space-y-3">
-                    <NavLink to="/" className="space-x-2 px-5 text-xl text-white">Home</NavLink>
-                    <NavLink to="about" className="space-x-2 px-5 text-xl text-white">About</NavLink>
+                    <NavLink to="/" className="space-x-2 px-5 text-white">Home</NavLink>
+                    <NavLink to="about" className="space-x-2 px-5 text-white">About</NavLink>
                 </div>
             </div>
 
             <div className="text-center mt-3 text-sm text-white">
-                © 2025 Rentory. All rights reserved (project for GeoLab).
+                © 2025 Rentory. All rights reserved (project for GeoLab not real copyright).
             </div>
         </div>
     )
