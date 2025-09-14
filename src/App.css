@@ -1,9 +1,3 @@
-#gradient-header {
-  background: linear-gradient(90deg, #e6b1ff, #cd61ff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
 body {
     background-color: #03061a;
 }
