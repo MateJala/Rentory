@@ -28,7 +28,8 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col m-3 space-y-3">
                     <NavLink to="/" className="space-x-2 px-5 text-white">Home</NavLink>
-                    <NavLink to="about" className="space-x-2 px-5 text-white">About</NavLink>
+                    <NavLink to="/about" className="space-x-2 px-5 text-white">About</NavLink>
+                    <NavLink to="/FAQ" className="space-x-2 px-5 text-white">FAQ</NavLink>
                 </div>
             </div>
 

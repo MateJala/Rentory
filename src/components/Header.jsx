@@ -18,7 +18,12 @@ const Header = () => {
                             `px-5 mx-2 text-2xl text-white ${isActive ? 'border border-stone-500 rounded-lg' : ''}`
                     }>About Us</NavLink>
                     </li>
-                </ul>   
+                    <li>
+                    <NavLink to="/FAQ" className={({ isActive }) =>
+                            `px-5 mx-2 text-2xl text-white ${isActive ? 'border border-stone-500 rounded-lg' : ''}`
+                    }>FAQ</NavLink>
+                    </li>
+                </ul>
             </div>
         </div>
     ) 

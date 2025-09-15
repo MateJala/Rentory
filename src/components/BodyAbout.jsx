@@ -29,7 +29,7 @@ const Body = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full flex flex-row justify-around gap-10 p-6">
+            <div className="w-full flex flex-row justify-around items-center gap-10 p-6">
                 <div className="w-[40%] text-white">
                     <div className="text-5xl font-bold">Our Mission</div>
                     <div className="text-xl p-3">
