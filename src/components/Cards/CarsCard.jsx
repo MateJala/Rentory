@@ -1,3 +1,4 @@
+
 const CarsCard = ({image = "", alt = "", model = "", year = "", status = "", price = 0, onClick = () => {},}) => {
     return (
         <div onClick={onClick} className="cursor-pointer bg-white rounded-lg shadow-md overflow-hidden w-full sm:w-[48%] lg:w-[40%]">
@@ -18,4 +19,4 @@ const CarsCard = ({image = "", alt = "", model = "", year = "", status = "", pri
     )}
 
 
-export default CarsCard;
+export default CarsCard

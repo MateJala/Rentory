@@ -1,18 +1,18 @@
 import { useEffect,useState } from "react";
-import { cars } from "../../data/Cars"
+import { residences } from "../../data/Residence"
 import Payment from "./Payment";
 
-const CarModal = ({ carId, onClose }) => {
+const ResidenceModal = ({ residenceId, onClose }) => {
     const [showPayment, setShowPayment] = useState(false);
-    const car = cars.find((c) => c.id === carId)
+    const residence = residences.find((c) => c.id === residenceId)
     useEffect(() => {
         document.body.style.overflow = "hidden";
         return () => {
             document.body.style.overflow = "auto";
         };
     }, []);
-    if (!car) return null
-    const { image, alt, model, year, status, price, brand, type, color, transmission, engine, drivetrain,fuelType, horsepower, topSpeed, acceleration } = car
+    if (!residence) return null
+    const { image, alt, location, wifi, pets, parking, price } = residence
 
     return (
         <div onClick={onClose}
@@ -36,26 +36,14 @@ const CarModal = ({ carId, onClose }) => {
                         <div className="h-[20px] w-full bg-stone-500 rounded"></div>
                         <div className="h-[20px] w-full bg-stone-500 rounded"></div>
                         <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
                         <div className="h-[20px] w-1/5 bg-stone-500 rounded"></div>
                     </div>
                     <div className="flex flex-row justify-between">
                         <div className="space-y-1 mb-4">
-                            <p className="text-gray-700">Car Model: <span className="font-bold">{model}</span></p>
-                            <p className="text-gray-700">Type: <span className="font-bold">{type}</span></p>
-                            <p className="text-gray-700">Brand: <span className="font-bold">{brand}</span></p>
-                            <p className="text-gray-700">Year: <span className="font-bold">{year}</span> </p>
-                            <p className="text-gray-700">Color: <span className="font-bold">{color}</span></p>
-                            <p className="text-gray-700">Condition: <span className="font-bold">{status}</span></p> 
-                            <p className="text-gray-700">Transmission: <span className="font-bold">{transmission}</span></p>
-                            <p className="text-gray-700">Engine: <span className="font-bold">{engine}</span></p>
-                            <p className="text-gray-700">Drivetrain: <span className="font-bold">{drivetrain}</span></p>
-                            <p className="text-gray-700">Fuel Type: <span className="font-bold">{fuelType}</span></p>
-                            <p className="text-gray-700">Horsepower: <span className="font-bold">{horsepower}</span></p>
-                            <p className="text-gray-700">Top Speed: <span className="font-bold">{topSpeed} MPG</span></p>
-                            <p className="text-gray-700">Acceleration: <span className="font-bold">{acceleration} sec</span></p>
+                            <p className="text-gray-700">Location: <span className="font-bold">{location}</span></p>
+                            <p className="text-gray-700">Free Wifi: <span className="font-bold">{wifi}</span></p>
+                            <p className="text-gray-700">Pets Allowed: <span className="font-bold">{pets}</span></p>
+                            <p className="text-gray-700">Parking Spot: <span className="font-bold">{parking}</span> </p>
                         </div>
                         <div className="space-y-1 mb-4" >
                             <h3 className="text-xl font-semibold mb-2">Renters contact info for further questions:</h3>
@@ -67,24 +55,21 @@ const CarModal = ({ carId, onClose }) => {
                             </div>
                             <div className="flex flex-row">
                                 <p className="text-gray-700">Phone: </p><div className="h-[20px] w-[40%] bg-stone-500 rounded ml-3"></div>
-                            </div>
-
-
-                            
+                            </div>                   
                         </div>
                     </div>
                     <div className="flex justify-center">
                         <button  onClick={() => setShowPayment(true)} className="border border-white rounded h-[40px] w-[200px] text-2xl font-bold text-white bg-emerald-500 hover:border-black cursor-pointer hover:bg-emerald-400">Rent It</button>
                     </div>
                     
-                    <div className="text-right text-emerald-500 font-bold text-lg">${price}/day</div>
+                    <div className="text-right text-emerald-500 font-bold text-lg">${price}/month</div>
                 </div>
             </div>
             {showPayment && (
-                <Payment onClose={() => setShowPayment(false) } model={model} />
+                <Payment onClose={() => setShowPayment(false) } location={location} />
             )}
         </div>
     )
 }
 
-export default CarModal
+export default ResidenceModal

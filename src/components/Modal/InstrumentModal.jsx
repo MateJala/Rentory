@@ -1,18 +1,18 @@
 import { useEffect,useState } from "react";
-import { cars } from "../../data/Cars"
+import { instruments } from "../../data/Instrument" 
 import Payment from "./Payment";
 
-const CarModal = ({ carId, onClose }) => {
+const InstrumentModal = ({ instrumentId, onClose }) => {
     const [showPayment, setShowPayment] = useState(false);
-    const car = cars.find((c) => c.id === carId)
+    const instrument = instruments.find((c) => c.id === instrumentId)
     useEffect(() => {
         document.body.style.overflow = "hidden";
         return () => {
             document.body.style.overflow = "auto";
         };
     }, []);
-    if (!car) return null
-    const { image, alt, model, year, status, price, brand, type, color, transmission, engine, drivetrain,fuelType, horsepower, topSpeed, acceleration } = car
+    if (!instrument) return null
+    const { image, alt, model, price } = instrument
 
     return (
         <div onClick={onClose}
@@ -36,26 +36,11 @@ const CarModal = ({ carId, onClose }) => {
                         <div className="h-[20px] w-full bg-stone-500 rounded"></div>
                         <div className="h-[20px] w-full bg-stone-500 rounded"></div>
                         <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
                         <div className="h-[20px] w-1/5 bg-stone-500 rounded"></div>
                     </div>
                     <div className="flex flex-row justify-between">
                         <div className="space-y-1 mb-4">
-                            <p className="text-gray-700">Car Model: <span className="font-bold">{model}</span></p>
-                            <p className="text-gray-700">Type: <span className="font-bold">{type}</span></p>
-                            <p className="text-gray-700">Brand: <span className="font-bold">{brand}</span></p>
-                            <p className="text-gray-700">Year: <span className="font-bold">{year}</span> </p>
-                            <p className="text-gray-700">Color: <span className="font-bold">{color}</span></p>
-                            <p className="text-gray-700">Condition: <span className="font-bold">{status}</span></p> 
-                            <p className="text-gray-700">Transmission: <span className="font-bold">{transmission}</span></p>
-                            <p className="text-gray-700">Engine: <span className="font-bold">{engine}</span></p>
-                            <p className="text-gray-700">Drivetrain: <span className="font-bold">{drivetrain}</span></p>
-                            <p className="text-gray-700">Fuel Type: <span className="font-bold">{fuelType}</span></p>
-                            <p className="text-gray-700">Horsepower: <span className="font-bold">{horsepower}</span></p>
-                            <p className="text-gray-700">Top Speed: <span className="font-bold">{topSpeed} MPG</span></p>
-                            <p className="text-gray-700">Acceleration: <span className="font-bold">{acceleration} sec</span></p>
+                            <p className="text-gray-700">Name: <span className="font-bold">{model}</span></p>
                         </div>
                         <div className="space-y-1 mb-4" >
                             <h3 className="text-xl font-semibold mb-2">Renters contact info for further questions:</h3>
@@ -68,9 +53,6 @@ const CarModal = ({ carId, onClose }) => {
                             <div className="flex flex-row">
                                 <p className="text-gray-700">Phone: </p><div className="h-[20px] w-[40%] bg-stone-500 rounded ml-3"></div>
                             </div>
-
-
-                            
                         </div>
                     </div>
                     <div className="flex justify-center">
@@ -87,4 +69,4 @@ const CarModal = ({ carId, onClose }) => {
     )
 }
 
-export default CarModal
+export default InstrumentModal
