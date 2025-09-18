@@ -28,18 +28,7 @@ const CarModal = ({ carId, onClose }) => {
                 <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">Full Description:</h3>
                     <div className="space-y-2 mb-4">
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-1/5 bg-stone-500 rounded"></div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dicta temporibus quam culpa provident vel voluptatem similique corrupti nihil aspernatur consequuntur facilis consectetur necessitatibus non, architecto deleniti veniam, tenetur sed quis. Similique ut eos earum, omnis ea modi dolorum beatae possimus ad perferendis officia dicta distinctio at amet obcaecati sapiente rem nesciunt error quia aut quaerat? Reiciendis, quaerat quam? Delectus sint labore odit, beatae dolorem, in repellendus, id veniam possimus doloremque impedit consequuntur! Explicabo, eligendi! Earum iure tempora excepturi iusto quia possimus adipisci facere quam delectus voluptates autem repellat, distinctio officiis officia sint architecto assumenda? Quos nisi pariatur repudiandae ea optio itaque maxime aspernatur et, dicta quis qui harum nostrum nam voluptas enim error mollitia non. Quasi nulla accusantium totam distinctio officiis ut perferendis architecto. Consectetur, voluptates corporis veniam explicabo impedit ducimus repellendus neque doloremque. Cupiditate rerum aliquid nihil molestias laborum harum modi repellat eveniet, ipsa repellendus tempora, expedita fugiat doloremque esse tempore id debitis ad impedit at quos. Veritatis sunt pariatur quia fuga accusamus odio impedit facere explicabo, maxime laudantium est sint deserunt ex nihil neque officiis excepturi quod, voluptate quibusdam voluptatum possimus blanditiis labore aut ratione. Est facere quia ea, voluptas iure cumque, fugit nulla quaerat et repudiandae, quibusdam natus! Delectus, dolores veritatis. Deleniti tenetur quidem sapiente odit aperiam enim vel error! Maiores, cumque! Architecto dignissimos quam beatae eum! Cupiditate unde vero odio et sequi consequuntur adipisci consequatur? Doloremque enim illo dicta praesentium fugit officiis quia amet reprehenderit voluptatibus assumenda? Ea ratione, similique modi veniam eaque iure minus?
                     </div>
                     <div className="flex flex-row justify-between">
                         <div className="space-y-1 mb-4">
@@ -60,13 +49,13 @@ const CarModal = ({ carId, onClose }) => {
                         <div className="space-y-1 mb-4" >
                             <h3 className="text-xl font-semibold mb-2">Renters contact info for further questions:</h3>
                             <div className="flex flex-row">
-                                <p className="text-gray-700">Name: </p><div className="h-[20px] w-[30%] bg-stone-500 rounded ml-3"></div>
+                                <p className="text-gray-700">Name: </p><div className="font-bold pl-1"> Lorem.</div>
                             </div>
                             <div className="flex flex-row">
-                                <p className="text-gray-700">Email: </p><div className="h-[20px] w-[50%] bg-stone-500 rounded ml-3"></div>
+                                <p className="text-gray-700">Email: </p><div className="font-bold pl-1"> Lorem, ipsum.</div>
                             </div>
                             <div className="flex flex-row">
-                                <p className="text-gray-700">Phone: </p><div className="h-[20px] w-[40%] bg-stone-500 rounded ml-3"></div>
+                                <p className="text-gray-700">Phone: </p><div className="font-bold pl-1"> Lorem, ipsum.</div>
                             </div>
 
 

@@ -28,15 +28,7 @@ const ResidenceModal = ({ residenceId, onClose }) => {
                 <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">Full Description:</h3>
                     <div className="space-y-2 mb-4">
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-1/5 bg-stone-500 rounded"></div>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia magni dolor eius molestiae unde aspernatur molestias possimus. Error, ducimus dolorem sit nisi est atque necessitatibus eos sed? Ipsum, hic sint eum dignissimos minima odio saepe qui nam esse accusantium nemo iusto totam adipisci voluptates maiores mollitia unde! Voluptas ipsum consequuntur magni quaerat qui. Quaerat dolorum neque architecto, nesciunt ut sunt ratione sit suscipit repudiandae qui vitae tenetur perspiciatis excepturi laudantium natus id! Quidem ut optio, debitis repellat neque tempora explicabo, illum libero quo, dolore odio deserunt voluptates consequatur aperiam atque nostrum sapiente repudiandae maxime doloribus. Pariatur, fugiat eos vitae ex facere cupiditate rerum. Eum neque fuga dolores quae temporibus possimus veniam magni accusamus dicta aspernatur. Laborum expedita nesciunt eius consequuntur animi! In quasi consectetur officiis ullam veritatis ab amet unde delectus ut a porro facere ipsum cum, quae, reprehenderit, dolore nulla impedit. Quos, fugit neque dolor perferendis, ullam optio reiciendis earum saepe consectetur corrupti sunt similique eos deleniti deserunt ab iure debitis! Repellendus labore deserunt eaque, esse molestias reprehenderit quisquam veritatis assumenda itaque ea, omnis molestiae dolorem. Necessitatibus aperiam pariatur laudantium? Cumque officia, vero doloremque earum pariatur maiores tempore culpa natus neque sequi necessitatibus iusto odit quia, odio delectus ipsa. Soluta incidunt voluptatibus exercitationem, mollitia voluptates quia voluptatum optio in dolores. Error perspiciatis qui unde optio? Ducimus nihil ea commodi unde similique ab repellendus rerum pariatur velit, cum aliquid doloremque magnam at obcaecati distinctio dolorem adipisci perferendis, temporibus inventore aperiam. Dolore illum neque ea dolores, voluptates maxime labore eos consequatur.
                     </div>
                     <div className="flex flex-row justify-between">
                         <div className="space-y-1 mb-4">
@@ -48,13 +40,13 @@ const ResidenceModal = ({ residenceId, onClose }) => {
                         <div className="space-y-1 mb-4" >
                             <h3 className="text-xl font-semibold mb-2">Renters contact info for further questions:</h3>
                             <div className="flex flex-row">
-                                <p className="text-gray-700">Name: </p><div className="h-[20px] w-[30%] bg-stone-500 rounded ml-3"></div>
+                                <p className="text-gray-700">Name: </p><div className="font-bold pl-1"> Lorem.</div>
                             </div>
                             <div className="flex flex-row">
-                                <p className="text-gray-700">Email: </p><div className="h-[20px] w-[50%] bg-stone-500 rounded ml-3"></div>
+                                <p className="text-gray-700">Email: </p><div className="font-bold pl-1"> Lorem, ipsum.</div>
                             </div>
                             <div className="flex flex-row">
-                                <p className="text-gray-700">Phone: </p><div className="h-[20px] w-[40%] bg-stone-500 rounded ml-3"></div>
+                                <p className="text-gray-700">Phone: </p><div className="font-bold pl-1"> Lorem, ipsum.</div>
                             </div>                   
                         </div>
                     </div>

@@ -22,9 +22,9 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className="flex flex-col m-3 space-y-3">
-                    <span className="flex items-center space-x-2 px-5 text-white">Email: <span className="bg-stone-600 h-4 w-25 mx-2"></span></span>
-                    <span className="flex items-center space-x-2 px-5 text-white">Hotline: <span className="bg-stone-600 h-4 w-25 mx-2"></span></span>
-                    <span className="flex items-center space-x-2 px-5 text-white">Adress: <span className="bg-stone-600 h-4 w-25 mx-2"></span></span>
+                    <span className="flex items-center space-x-2 px-5 text-white">Email:<span className="font-bold pl-1"> Rentory@gmail.com</span></span>
+                    <span className="flex items-center space-x-2 px-5 text-white">Hotline: <span className="font-bold pl-1"> +325 840 582 235 </span></span>
+                    <span className="flex items-center space-x-2 px-5 text-white">Adress: <span className="font-bold pl-1">NYC 1st Street</span></span>
                 </div>
                 <div className="flex flex-col m-3 space-y-3">
                     <NavLink to="/" className="space-x-2 px-5 text-white">Home</NavLink>

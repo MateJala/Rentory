@@ -5,9 +5,7 @@ const ResidenceCard = ({image = "", alt = "", location = "", wifi = "", pets = "
             <img src={image} alt={alt} className="h-[300px] w-full object-cover rounded" />
             <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2">Description:</h3>  
-                <div className="space-y-1 mb-4 h-[20px] w-full bg-stone-500"></div>
-                <div className="space-y-1 mb-4 h-[20px] w-full bg-stone-500"></div>
-                <div className="space-y-1 mb-4 h-[20px] w-1/5 bg-stone-500"></div>
+                <div className="space-y-1 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatum qui optio eaque, excepturi minus architecto fugiat aut modi iusto, quae eligendi nesciunt, laborum doloremque cum ad delectus numquam voluptatibus?</div>
                 <div className="space-y-1 mb-4">
                     <p className="text-gray-700">Location: <span className="font-bold">{location}</span></p>
                     <p className="text-gray-700">Free Wifi: <span className="font-bold">{wifi}</span></p>

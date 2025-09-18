@@ -28,15 +28,7 @@ const InstrumentModal = ({ instrumentId, onClose }) => {
                 <div className="p-4">
                     <h3 className="text-xl font-semibold mb-2">Full Description:</h3>
                     <div className="space-y-2 mb-4">
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-full bg-stone-500 rounded"></div>
-                        <div className="h-[20px] w-1/5 bg-stone-500 rounded"></div>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto maxime quod deserunt quasi commodi non consequatur expedita doloribus. Nesciunt officiis adipisci pariatur, dolor ea incidunt magni ex hic. Cupiditate voluptatum unde perspiciatis vero tempora natus tenetur. Et enim, nihil voluptatem excepturi impedit, alias quos expedita officia architecto suscipit, ullam ex debitis! Perferendis veritatis voluptatem quasi molestias expedita deserunt eos earum iste suscipit facere praesentium, tenetur laboriosam a totam unde modi sint repellendus amet, animi, quia laudantium saepe debitis consectetur? Minus commodi veniam pariatur nobis nesciunt! Odit, cumque reprehenderit totam aliquid dolore, ratione illum aspernatur dicta sapiente porro eum aperiam omnis nihil, veniam odio hic natus ipsa necessitatibus dignissimos sequi est animi nostrum? Nulla ad, hic est in quas voluptatibus quae quaerat explicabo magnam aliquid dolorum commodi veritatis corrupti facilis perferendis labore et nisi illum vero ratione error velit praesentium distinctio? At accusamus nihil sequi et molestias ipsam sint facere. Dolor reiciendis minima sint enim tempore fuga modi molestiae illo tenetur nostrum recusandae, eum temporibus possimus perspiciatis. Ex doloribus nulla ducimus eum et, aliquam esse sunt eveniet in quibusdam repudiandae deserunt voluptas veniam quas corporis natus dolor saepe. Veritatis eveniet quos sit. Perspiciatis earum id similique? In nobis doloribus maxime? Ab fuga minima dolorem necessitatibus excepturi quas dignissimos, et a esse voluptates eveniet quae iure libero aut neque, eum eos nulla perspiciatis aspernatur aliquam tenetur possimus totam nam quia. Laborum, necessitatibus! Placeat possimus enim hic adipisci. Mollitia ad nisi ex laboriosam deserunt ullam incidunt necessitatibus fugiat? Praesentium quae pariatur obcaecati quasi.
                     </div>
                     <div className="flex flex-row justify-between">
                         <div className="space-y-1 mb-4">
@@ -45,13 +37,13 @@ const InstrumentModal = ({ instrumentId, onClose }) => {
                         <div className="space-y-1 mb-4" >
                             <h3 className="text-xl font-semibold mb-2">Renters contact info for further questions:</h3>
                             <div className="flex flex-row">
-                                <p className="text-gray-700">Name: </p><div className="h-[20px] w-[30%] bg-stone-500 rounded ml-3"></div>
+                                <p className="text-gray-700">Name: </p><div className="font-bold pl-1"> Lorem.</div>
                             </div>
                             <div className="flex flex-row">
-                                <p className="text-gray-700">Email: </p><div className="h-[20px] w-[50%] bg-stone-500 rounded ml-3"></div>
+                                <p className="text-gray-700">Email: </p><div className="font-bold pl-1"> Lorem, ipsum.</div>
                             </div>
                             <div className="flex flex-row">
-                                <p className="text-gray-700">Phone: </p><div className="h-[20px] w-[40%] bg-stone-500 rounded ml-3"></div>
+                                <p className="text-gray-700">Phone: </p><div className="font-bold pl-1"> Lorem, ipsum.</div>
                             </div>
                         </div>
                     </div>
