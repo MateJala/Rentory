@@ -5,9 +5,10 @@ const CarsCard = ({image = "", alt = "", model = "", year = "", status = "", pri
             <img src={image} alt={alt} className="h-[300px] w-full object-cover rounded" />
             <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2">Description:</h3>  
+                {/* <div className="space-y-1 mb-4 h-[20px] w-full bg-stone-500"></div>
                 <div className="space-y-1 mb-4 h-[20px] w-full bg-stone-500"></div>
-                <div className="space-y-1 mb-4 h-[20px] w-full bg-stone-500"></div>
-                <div className="space-y-1 mb-4 h-[20px] w-1/5 bg-stone-500"></div>
+                <div className="space-y-1 mb-4 h-[20px] w-1/5 bg-stone-500"></div> */}
+                <div className="space-y-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptatum qui optio eaque, excepturi minus architecto fugiat aut modi iusto, quae eligendi nesciunt, laborum doloremque cum ad delectus numquam voluptatibus?</div>
                 <div className="space-y-1 mb-4">
                     <p className="text-gray-700">Car Model: <span className="font-bold">{model}</span></p>
                     <p className="text-gray-700">Year: <span className="font-bold">{year}</span></p>
