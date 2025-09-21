@@ -8,15 +8,15 @@ const Footer = () => {
         <div className="w-full border-y border-stone-700">
             <div className="flex flex-row justify-between">
                 <div className="flex flex-col m-3 space-y-3">
-                    <a href="https://www.twitter.com" aria-label="Twitter" className="flex items-center px-5 space-x-2 text-white">
+                    <a href="https://www.twitter.com" className="flex items-center px-5 space-x-2 text-white">
                         <img src={twitterlogo} alt="Twitter logo" className="h-6 w-6 object-contain"/>
                         <span>@Rentory</span>
                     </a>
-                    <a href="https://www.linkedin.com/" aria-label="Linkedin" className="flex items-center px-5 space-x-2 text-white">
+                    <a href="https://www.linkedin.com/" className="flex items-center px-5 space-x-2 text-white">
                         <img src={linkedinlogo} alt="Linkedin logo" className="h-6 w-6 object-contain"/>
                         <span>Rentory</span>
                     </a>
-                    <a href="https://www.instagram.com/" aria-label="Instagram" className="flex items-center px-5 space-x-2 text-white">
+                    <a href="https://www.instagram.com/" className="flex items-center px-5 space-x-2 text-white">
                         <img src={instagramlogo} alt="Instagram logo" className="h-6 w-6 object-contain"/>
                         <span>@Rentory</span>
                     </a>

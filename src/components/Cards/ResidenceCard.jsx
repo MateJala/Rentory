@@ -1,7 +1,7 @@
 
 const ResidenceCard = ({image = "", alt = "", location = "", wifi = "", pets = "", parking = "", price = 0, onClick = () => {},}) => {
     return (
-        <div onClick={onClick} className="cursor-pointer bg-white rounded-lg shadow-md overflow-hidden w-full sm:w-[48%] lg:w-[40%]">
+        <div onClick={onClick} className="cursor-pointer bg-white rounded-lg shadow-md overflow-hidden w-[80%] lg:w-[40%]">
             <img src={image} alt={alt} className="h-[300px] w-full object-cover rounded" />
             <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2">Description:</h3>  

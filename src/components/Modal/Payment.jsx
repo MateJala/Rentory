@@ -80,11 +80,11 @@ const Payment = ({ onClose, model }) => {
                     value={formData.phone}
                     onChange={handleChange}
                 />
-                <div className="flex flex-row justify-between items-center">
-                    <p className="text-xl font-semibold w-[50%]">How many days will u be renting?</p>
+                <div className="flex flex-col lg:flex-row justify-between items-center">
+                    <p className="text-xl font-semibold w-full flex justify-center lg:w-[50%]">How many days will u be renting?</p>
                     <input
                     name="days"
-                    className="w-full border rounded p-2 ml-2"
+                    className="w-full border rounded p-2 lg:ml-2"
                     placeholder="How many days will u be renting?"
                     value={formData.days}
                     onChange={handleChange}
